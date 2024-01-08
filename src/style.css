@@ -10,6 +10,7 @@ font-family: 'Roboto', sans-serif;
 	--heading-font-family: "play-fair Display", serif;
 	--default-font-family: "play-fair Display", serif;
 }
+
 body {
 	font-family: var(--default-font-family);
 }
@@ -71,6 +72,7 @@ p {
 	padding: 120px 60px;
 }
 @media (max-width: 844px) {
+
 	h1 {
 		font-size: 44px;
 		line-height: 1.5;
