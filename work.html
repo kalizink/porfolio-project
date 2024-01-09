@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			class="description"
+			content="Examples of Kali's work using HTML, CSS, and JavaScript" />
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -21,23 +24,64 @@
 		<script
 			src="https://kit.fontawesome.com/11fb70c997.js"
 			crossorigin="anonymous"></script>
-		<title>Homepage</title>
+		<title>Kali's work using HTML, CSS, and JavaScript</title>
 	</head>
 	<body>
+		<!-- nav bar start  -->
+		<div class="container">
+			<nav class="d-flex justify-content-between">
+				<a href="/">
+					<img
+						src="images/sheCode-logo.png"
+						alt="small-logo"
+						title="logo"
+						class="logo d-none d-md-block" />
+					<!-- small logo -->
+					<img
+						src="images/smallLogo.png"
+						alt="logo"
+						title="logo"
+						class="logo d-block d-md-none"
+				/></a>
+				<ul>
+					<li>
+						<a href="/index.html" title="Homepage">Home</a>
+					</li>
+					<li>
+						<a href="/about.html" title="About Kali"> About</a>
+					</li>
+					<li>
+						<a href="/work.html" class="active" title="Kalis work"> Work</a>
+					</li>
+					<li>
+						<a href="/contact.html" title="contact Kali"> Contact</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- navbar end  -->
 		<div class="content-container container">
 			<div class="content">
 				<h1 class="mb-5">Take a look at what I've been working on!</h1>
 				<div class="row">
 					<!-- yogurt start -->
 					<div class="col-md-6 mb-4">
-						<img src="/images/yogurt.png" alt="yogurt" class="img-fluid radius-photo" />
+						<img
+							src="/images/yogurt.png"
+							alt="yogurt"
+							class="img-fluid radius-photo"
+							title="Yogurt project" />
 						<h3 class="text-center">Yogurt Project</h3>
 						<p class="text-center text-muted">Built with HTML and CSS</p>
 					</div>
 					<!-- yogurt end -->
 					<!-- weather start -->
 					<div class="col-md-6 mb-4">
-						<img src="/images/weather.png" alt="weather" class="img-fluid radius-photo" />
+						<img
+							src="/images/weather.png"
+							alt="weather"
+							class="img-fluid radius-photo"
+							title="Weather Project" />
 						<h3 class="text-center">Weather Project</h3>
 						<p class="text-center text-muted">
 							Built with HTML, CSS, and JavaScript
@@ -49,7 +93,8 @@
 						<img
 							src="/images/dictionary.png"
 							alt="dictionary"
-							class="img-fluid radius-photo" />
+							class="img-fluid radius-photo"
+							title="dictionary project" />
 						<h3 class="text-center">Dictionary Project</h3>
 						<p class="text-center text-muted">
 							Built with HTML, CSS with React
@@ -58,7 +103,11 @@
 					<!-- dictionary end -->
 					<!-- Translation Start -->
 					<div class="col-md-6 mb-4">
-						 <img src="/images/translation.png" alt="translation" class="img-fluid radius-photo" />
+						<img
+							src="/images/translation.png"
+							alt="translation"
+							class="img-fluid radius-photo"
+							title="translation project" />
 						<h3 class="text-center">Translation Project</h3>
 						<p class="text-center text-muted">
 							Built with HTML, CSS with React
@@ -67,6 +116,54 @@
 					<!-- transltion end -->
 				</div>
 			</div>
+			<footer class="text-center mt-4 container">
+				<!-- contact box start -->
+				<div
+					class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+					<div>
+						<h3>Work Inqury</h3>
+						<p class="text-muted">Let's work together</p>
+					</div>
+					<!-- new col -->
+					<div>
+						<a href="contact.html" class="btn btn-branding" title="Contact Kali"
+							>Contact me</a
+						>
+					</div>
+				</div>
+				<!-- contact box end -->
+				<div class="d-flex justify-content-center mb-5">
+					<a href="mailto:kalizink65@gmail.com" class="email-link" title="Email"
+						>kalizink65@gmail.com</a
+					>
+				</div>
+				<!-- social links -->
+				<div class="social-links d-flex justify-content-center">
+					<a
+						href="https://github.com/kalizink "
+						target="_blank"
+						title="GitHub profile">
+						<i class="fa-brands fa-github"></i>
+					</a>
+					<a
+						href="https://www.linkedin.com/in/kalizink/"
+						title="LinkedIn profiel"
+						target="_blank">
+						<i class="fa-brands fa-linkedin"></i>
+					</a>
+					<!-- icons -->
+				</div>
+				<p class="text-center mt-4 mb-4">
+					This project was coded by
+					<a href="https://github.com/kalizink" target="_blank"> Kali Zink</a>
+					and is
+					<a
+						href="https://github.com/kalizink/porfolio-project.git"
+						target="_blank">
+						open sourced on GitHub</a
+					>
+				</p>
+			</footer>
 		</div>
 	</body>
 </html>
