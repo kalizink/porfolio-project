@@ -50,18 +50,27 @@ p {
 	line-height: 2;
 	font-size: 24px;
 }
-.about-section {
+.content-container {
 	padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
 	font-size: 64px;
 	line-height: 80px;
 }
-.about-section h2 {
+.content-container h2 {
 	font-size: 18px;
 	font-family: var(--default-font-family);
 }
-.about-section-content {
+.content h3 {
+	font-size: 24px;
+	line-height: 1;
+	margin: 20px 0;
+	font-size: var(--default-font-family);
+}
+.content p {
+	font-size: 14px;
+}
+.content {
 	margin: 30px;
 }
 .btn-branding {
@@ -83,7 +92,7 @@ p {
 .project-description {
 	padding: 120px 60px;
 }
-.profile-photo {
+.radius-photo {
 	border-radius: 10px;
 }
 @media (max-width: 844px) {
@@ -97,7 +106,7 @@ p {
 	.hero {
 		padding: 80px 20px;
 	}
-	.about-section {
+	.content {
 		text-align: center;
 		padding: 0;
 	}
