@@ -192,4 +192,7 @@ footer .email-link:hover {
 	footer .contact-box {
 		padding: 30px;
 	}
+	.work-h1 {
+		font-size: 15px;
+	}
 }
