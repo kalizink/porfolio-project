@@ -96,7 +96,7 @@ p {
 	border-radius: 10px;
 }
 .logo {
-	max-width: 150px;
+	max-height: 150px;
 }
 nav {
 	padding: 20px 0;
@@ -140,5 +140,12 @@ nav a:hover {
 		padding: 0;
 		text-align: center;
 		display: block;
+	}
+	.logo{
+		max-height: 60px;
+	}
+	nav a{
+		font-size: 14px;
+		margin: 5px;
 	}
 }
